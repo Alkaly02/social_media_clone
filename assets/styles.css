@@ -38,7 +38,67 @@ article{
 /* ================= aside ================== */
 aside {
 	grid-area: aside;
+	font-family: sans-serif;
 }
+
+/* STATUS */
+.status{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid rgb(212, 209, 209);
+	border-radius: 5px;
+}
+
+.profile { display: flex; }
+
+.profile__img {
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.profile__img img {
+	max-width: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+.status__info { margin-top: 20px; }
+
+.status__info p {
+	font-size: 17px;
+	line-height: 1.8rem;
+}
+
+/* SUGGESTION */
+.suggestion {margin-top: 30px; }
+
+.friends {
+	margin: 15px 0px;
+	display: flex;
+}
+
+.friends__profile {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	margin-right: 10px;
+}
+
+.friends__info h3 { font-size: 20px; }
+
+.friends__info p:first-of-type {
+	font-size: 17px;
+	opacity: 0.7;
+	margin-top: 10px;
+}
+
+.friends__info p:last-of-type {
+	font-weight: 500;
+	margin-top: 1.5rem;
+}
+
+.friends__info p:last-of-type i { color: rgb(20, 183, 238); }
 
 /* media queries ( ************ A NE PAS TOUCHER **********) */
 @media (max-width: 915px) {
