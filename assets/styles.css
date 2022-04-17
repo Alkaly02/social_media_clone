@@ -72,6 +72,7 @@ aside {
 
 /* SUGGESTION */
 .suggestion {margin-top: 30px; }
+.suggestion h2 {border-bottom: 1px solid black;}
 
 .friends {
 	margin: 15px 0px;
