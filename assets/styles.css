@@ -3,7 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+body{
+	background-color: #F1F1F1;
+}
 .container {
 	max-width: 1250px;
 	margin: auto;
@@ -23,7 +25,35 @@ header{
 /* =============== navbar ============== */
 nav {
 	grid-area: navbar;
+	width: 100%;
+	font-family: sans-serif;
 }
+#navbar a{
+	text-decoration: none;
+	color: black;
+}
+#navbar li:hover{
+	border: 1px solid rgb(212, 209, 209);
+	background-color: white;
+	border-radius: 7px;
+	padding: 5px;
+}
+#navbar li{
+	list-style: none;
+	font-size: 15px;
+	line-height: 2rem;
+
+}
+@media (max-width: 425px){
+	 #navbar{
+		 display: flex;
+		 padding: 1.5rem 1rem;
+	 }
+	 #navbar ul{
+		 margin-right: 5rem;
+	 }
+}
+
 
 
 main {
