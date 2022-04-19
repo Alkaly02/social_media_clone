@@ -59,35 +59,32 @@ nav {
 #navbar{
 	width: 100%;
 	font-family: sans-serif;
-	margin: 2rem 0.5rem;
 }
-.liste-principal{
+.navbar_ul{
 	display: block;
 }
-#navbar .casenav{
+#navbar .navbar_a{
 	text-decoration: none;
 	color: black;
+	margin-right: 0px;
 }
-#navbar .liste:hover{
+#navbar .navbar_li:hover{
 	border: 1px solid rgb(212, 209, 209);
 	background-color: white;
 	border-radius: 7px;
-	padding: 10px;
+	padding: 7.5px;
 }
-#navbar .liste{
+#navbar .navbar_li{
 	list-style: none;
 	font-size: 15px;
 	line-height: 2rem;
+	cursor: pointer;
 
 }
 @media (max-width: 425px){
 	 #navbar{
 		 display: flex;
 		 padding: 1.5rem 2rem;
-		 margin: 1rem 0px;
-	 }
-	 #navbar .liste-principal{
-		 margin-right: 3rem;
 	 }
 }
 
