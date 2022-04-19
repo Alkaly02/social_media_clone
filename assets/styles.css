@@ -44,6 +44,25 @@ li a{
 	margin-left:10px ;
 	font-size: 25px;
 }
+li a{
+	
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+	margin-right: 40px;
+	
+	
+}
+.logo{
+	margin-top: 10px;
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	margin-left:10px ;
+	font-size: 25px;
+}
+
 
 
 #main__section {
@@ -109,6 +128,7 @@ aside {
 	padding: 10px;
 	border: 1px solid rgb(212, 209, 209);
 	border-radius: 5px;
+	background-color: white;
 }
 
 .profile { display: flex; }
