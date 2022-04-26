@@ -13,17 +13,33 @@ body{
 
 /* =============== header ============ */
 header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #2c3e50;
 	height: 80px;
-	margin: 10px;
 }
+@media screen and (max-width: 508px){
+	header{ 
+		flex-direction: column;
+		 }
+}
+
 ul{
 	width: 100%;
-	/*margin: 0 0 0 250px;*/
+	
 	list-style: none;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	
+}
+
+@media screen and (max-width: 508px){
+	ul{ 
+		padding-bottom: 2%;
+		 }
+
 }
 
 li a{
@@ -36,31 +52,14 @@ li a{
 	
 }
 .logo{
-	margin-top: 10px;
+	
 	text-decoration: none;
 	font-family: arial;
 	color: white;
 	text-align: center;
-	margin-left:10px ;
+	
 	font-size: 25px;
-}
-li a{
-	
-	text-decoration: none;
-	font-family: arial;
-	color: white;
-	margin-right: 40px;
-	
-	
-}
-.logo{
-	margin-top: 10px;
-	text-decoration: none;
-	font-family: arial;
-	color: white;
-	text-align: center;
-	margin-left:10px ;
-	font-size: 25px;
+
 }
 
 
